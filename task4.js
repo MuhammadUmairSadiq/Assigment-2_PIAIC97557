@@ -1,10 +1,10 @@
 var TotalMarks = 300;
 console.log("Total Marks : " +TotalMarks);
-var s1 = parseInt(prompt("Enter the marks in English"));
+var s1 = parseInt(prompt("Enter the marks in English out of 100"));
 console.log("Marks in English : " +s1);
-var s2 =  parseInt(prompt("Enter the marks in Urdu"));
+var s2 =  parseInt(prompt("Enter the marks in Urdu out of 100"));
 console.log("Marks in Urdu : " +s2);
-var s3 =  parseInt(prompt("Enter the marks in Maths"));
+var s3 =  parseInt(prompt("Enter the marks in Maths out of 100"));
 console.log("Marks in Maths : " +s3);
 
 var s4 = s1 + s2 + s3;
